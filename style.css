@@ -1,0 +1,158 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(117, 255, 248);
+}
+.container{
+    height: 500px;
+    width: 350px;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: -1;
+}
+
+.cat{
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+
+.face{
+    background-color: grey;
+    height: 90px;
+    width: 150px;
+    border-radius: 60px;
+}
+.ear-l,.ear-r{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid grey;
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent ;
+    position: relative;
+    z-index: -1;
+}
+
+.ear-l{
+    bottom: 35px;
+    transform: rotate(-30deg);
+}
+.ear-r{
+    bottom: 85px;
+    left: 110px;
+    transform: rotate(30deg);
+}
+.inner1{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #a53e29;
+    border-left: 25px solid transparent;
+    right: 25px;
+    position: relative;
+}
+.inner2{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #a53e29;
+    border-left: 20px solid transparent;
+    right: 15px;
+    position: relative;
+}
+.eye-l,.eye-r{
+    background-color:aqua;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+.eye-l{
+    bottom: 75px;
+    left: 30px;
+}
+.eye-r{
+    bottom: 105px;
+    left: 90px;
+}
+.eyeball{
+    background-color: #262626;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+.nose{
+    height: 0;
+    width: 0;
+    border-top: 8px solid #a53e29;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    bottom: 110px;
+    left: 70px;
+}
+.l1,.l2{
+    background-color: #a53e29;
+    height: 8px;
+    width: 1px;
+    position: relative;
+}
+.l1{
+    transform: rotate(45deg);
+    right: 4px;
+    bottom: 1.5px;
+}
+.l2{
+    transform: rotate(-45deg);
+    bottom: 10px;
+    left: 3px;
+}
+.body{
+    background-color: grey;
+    height: 120px;
+    width: 130px;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    border-radius: 0 65px 0 0;
+}
+.paw-l,.paw-r{
+    background-color: grey;
+    height: 10px;
+    width: 22px;
+    position: relative;
+    border-radius: 0 0px 10px 10px;
+}
+.paw-l{
+    top: 120px;
+}
+.paw-r{
+    top: 110px;
+    left: 50px;
+}
+.tail{
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    border-radius: 0 20px 20px 0;
+}
+.shadow{
+    background-color: rgba(8, 8, 8,0.05);
+    height: 30px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    z-index: -1;
+}
